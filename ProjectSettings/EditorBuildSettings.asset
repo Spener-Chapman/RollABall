@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/template/template/Presets/Scenes/SampleScene.unity
+    path: Assets/DO NOT DELETE/template/Presets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
     path: Assets/Scenes/scene1.unity
     guid: 49558dea2449bef4ea8b11ccbc6b7440
+  - enabled: 1
+    path: Assets/Scenes/scene 2.unity
+    guid: 7b47df874dc5ae447b16bafd02614d0a
   m_configObjects: {}
