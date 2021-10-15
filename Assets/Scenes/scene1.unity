@@ -313,7 +313,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh30904
+  m_Name: pb_Mesh26536
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12140,8 +12140,9 @@ GameObject:
   - component: {fileID: 1733419664}
   - component: {fileID: 1733419663}
   - component: {fileID: 1733419666}
-  - component: {fileID: 1733419667}
+  - component: {fileID: 1733419669}
   - component: {fileID: 1733419668}
+  - component: {fileID: 1733419667}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12255,11 +12256,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1733419662}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d230e208c5a9180428d741db7ac1b026, type: 3}
+  m_Script: {fileID: 11500000, guid: 8aeb9af73410a27488194f8151ade4aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnSpeed: 5
   player: {fileID: 831164459}
-  cameraDistance: 3
 --- !u!114 &1733419668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12272,6 +12273,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6014c62a3995a644895f092370762e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1733419669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733419662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d230e208c5a9180428d741db7ac1b026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 831164459}
+  cameraDistance: 3
 --- !u!1 &1749508392
 GameObject:
   m_ObjectHideFlags: 0
